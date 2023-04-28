@@ -1,0 +1,31 @@
+﻿@using personapi_dotnet.Models.Entities
+@model List<Telefono>
+
+<h1>Telefonos</h1>
+<p>
+    <a asp-action="Create">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Telefono</th>
+            <th>Duenio</th>
+            <th>Operador</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var telefono in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>telefono.Num)</td>
+                <td>@Html.DisplayFor(modelItem => telefono.DuenioNavigation.Nombre)</td>
+                <td>@Html.DisplayFor(m=>telefono.Oper)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@telefono.Num">Editar</a> 
+                    <a asp-action="Delete" asp-route-id="@telefono.Num">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

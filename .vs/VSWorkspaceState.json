@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\personapi-dotnet",
+    "\\personapi-dotnet\\personapi-dotnet",
+    "\\personapi-dotnet\\personapi-dotnet\\Controllers",
+    "\\personapi-dotnet\\personapi-dotnet\\obj\\Debug",
+    "\\personapi-dotnet\\personapi-dotnet\\obj\\Debug\\net7.0",
+    "\\personapi-dotnet\\personapi-dotnet\\obj\\Release"
+  ],
+  "SelectedNode": "\\personapi-dotnet\\personapi-dotnet\\Controllers\\ProfesionController.cs",
+  "PreviewInSolutionExplorer": false
+}

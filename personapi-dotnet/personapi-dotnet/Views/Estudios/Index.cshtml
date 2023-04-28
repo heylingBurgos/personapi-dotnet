@@ -1,0 +1,32 @@
+﻿@using personapi_dotnet.Models.Entities
+@model List<Estudio>
+
+<h1>Profesiones</h1>
+<p>
+    <a asp-action="Create">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Universidad</th>
+            <th>Fecha</th>
+            <th>Graduado</th>
+            <th>Profesion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudios in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>estudios.Univer)</td>
+                <td>@Html.DisplayFor(m=>estudios.Fecha)</td>
+                <td>@Html.DisplayFor(m=>estudios.CcPer)</td>
+                <td>@Html.DisplayFor(m=>estudios.IdProf)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) 
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>personapi-dotnet</name>
+    </assembly>
+    <members>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Index">
+            <summary>
+            Obtiene la lista de estudios.
+            </summary>
+            <returns>Una vista que muestra la lista de estudios.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Create">
+            <summary>
+            Muestra la vista de creación de un estudio.
+            </summary>
+            <returns>La vista de creación de un estudio.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Create(personapi_dotnet.Models.Entities.Estudio)">
+            <summary>
+            Crea un nuevo estudio.
+            </summary>
+            <param name="estudio">Los datos del estudio a crear.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Muestra la vista de edición de un estudio.
+            </summary>
+            <param name="id">El identificador del estudio.</param>
+            <returns>La vista de edición del estudio o una vista de error si no se encuentra el estudio.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Edit(System.Int32,personapi_dotnet.Models.Entities.Estudio)">
+            <summary>
+            Actualiza la información de un estudio existente.
+            </summary>
+            <param name="id">El identificador del estudio a actualizar.</param>
+            <param name="estudio">La información actualizada del estudio.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Muestra la vista de eliminación de un estudio.
+            </summary>
+            <param name="id">El identificador del estudio.</param>
+            <returns>La vista de eliminación del estudio o una vista de error si no se encuentra el estudio.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.EstudiosController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirma la eliminación de un estudio.
+            </summary>
+            <param name="id">El identificador del estudio a eliminar.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Index">
+            <summary>
+            Obtiene la lista de personas.
+            </summary>
+            <returns>Una lista de personas.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Create">
+            <summary>
+            Muestra la vista de creación de una persona.
+            </summary>
+            <returns>La vista de creación de una persona.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Create(personapi_dotnet.Models.Entities.Persona)">
+            <summary>
+            Crea una nueva persona.
+            </summary>
+            <param name="persona">La información de la persona a crear.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Muestra la vista de edición de una persona.
+            </summary>
+            <param name="id">El identificador de la persona.</param>
+            <returns>La vista de edición de la persona o una vista de error si no se encuentra la persona.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Edit(System.Int32,personapi_dotnet.Models.Entities.Persona)">
+            <summary>
+            Actualiza una persona existente.
+            </summary>
+            <param name="id">El identificador de la persona.</param>
+            <param name="persona">La información actualizada de la persona.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Elimina una persona por su identificador.
+            </summary>
+            <param name="id">El identificador de la persona a eliminar.</param>
+            <returns>La vista de la persona a eliminar en caso de éxito, o una vista de error en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.PersonaController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirma la eliminación de una persona.
+            </summary>
+            <param name="id">El identificador de la persona a eliminar.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Index">
+            <summary>
+            Obtiene la lista de profesiones.
+            </summary>
+            <returns>Una vista que muestra la lista de profesiones.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Create">
+            <summary>
+            Muestra la vista de creación de una profesión.
+            </summary>
+            <returns>La vista de creación de una profesión.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Create(personapi_dotnet.Models.Entities.Profesion)">
+            <summary>
+            Crea una nueva profesión.
+            </summary>
+            <param name="profesion">La información de la profesión a crear.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Muestra la vista de edición de una profesión.
+            </summary>
+            <param name="id">El identificador de la profesión.</param>
+            <returns>La vista de edición de la profesión o una vista de error si no se encuentra la profesión.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Edit(System.Int32,personapi_dotnet.Models.Entities.Profesion)">
+            <summary>
+            Actualiza la información de una profesión existente.
+            </summary>
+            <param name="id">El identificador de la profesión a actualizar.</param>
+            <param name="profesion">La información actualizada de la profesión.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Muestra la vista de eliminación de una profesión.
+            </summary>
+            <param name="id">El identificador de la profesión.</param>
+            <returns>La vista de eliminación de la profesión o una vista de error si no se encuentra la profesión.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.ProfesionController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirma la eliminación de una profesión.
+            </summary>
+            <param name="id">El identificador de la profesión a eliminar.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Index">
+            <summary>
+            Obtiene la lista de teléfonos con sus respectivos dueños.
+            </summary>
+            <returns>Una vista que muestra la lista de teléfonos con sus dueños.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Create">
+            <summary>
+            Muestra la vista de creación de un teléfono.
+            </summary>
+            <returns>La vista de creación de un teléfono.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Create(personapi_dotnet.Models.Entities.Telefono)">
+            <summary>
+            Crea un nuevo teléfono.
+            </summary>
+            <param name="telefono">La información del teléfono a crear.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Edit(System.String)">
+            <summary>
+            Muestra la vista de edición de un teléfono.
+            </summary>
+            <param name="id">El número del teléfono.</param>
+            <returns>La vista de edición del teléfono o una vista de error si no se encuentra el teléfono.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Edit(System.String,personapi_dotnet.Models.Entities.Telefono)">
+            <summary>
+            Actualiza la información de un teléfono existente.
+            </summary>
+            <param name="id">El número del teléfono a actualizar.</param>
+            <param name="telefono">La información actualizada del teléfono.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito, o una vista con el modelo en caso contrario.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.Delete(System.String)">
+            <summary>
+            Muestra la vista de eliminación de un teléfono.
+            </summary>
+            <param name="id">El número del teléfono.</param>
+            <returns>La vista de eliminación del teléfono o una vista de error si no se encuentra el teléfono.</returns>
+        </member>
+        <member name="M:personapi_dotnet.Controllers.TelefonoController.DeleteConfirmed(System.String)">
+            <summary>
+            Confirma la eliminación de un teléfono.
+            </summary>
+            <param name="id">El número del teléfono a eliminar.</param>
+            <returns>Una redirección a la acción "Index" en caso de éxito.</returns>
+        </member>
+    </members>
+</doc>

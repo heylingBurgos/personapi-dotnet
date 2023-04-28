@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = personapi_dotnet
+build_property.RootNamespace = personapi_dotnet
+build_property.ProjectDir = C:\Users\ASUS\Desktop\Universidah\11SEMESTRE\Arqui\LAB 1\Implementacion\personapi-dotnet\personapi-dotnet\personapi-dotnet\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\Universidah\11SEMESTRE\Arqui\LAB 1\Implementacion\personapi-dotnet\personapi-dotnet\personapi-dotnet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Estudios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Persona/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Persona/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Persona/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Persona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Profesion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Profesion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Profesion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Profesion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Telefono/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Telefono/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Telefono/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Telefono/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVsZWZvbm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/Universidah/11SEMESTRE/Arqui/LAB 1/Implementacion/personapi-dotnet/personapi-dotnet/personapi-dotnet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8xpzuv8i67

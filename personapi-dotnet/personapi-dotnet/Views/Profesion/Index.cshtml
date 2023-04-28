@@ -1,0 +1,28 @@
+﻿@using personapi_dotnet.Models.Entities
+@model List<Profesion>
+
+<h1>Profesiones</h1>
+<p>
+    <a asp-action="Create">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profesion in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>profesion.Nom)</td>
+                <td>@Html.DisplayFor(m=>profesion.Des)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@profesion.Id">Editar</a> 
+                    <a asp-action="Delete" asp-route-id="@profesion.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

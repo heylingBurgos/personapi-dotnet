@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\personapi-dotnet",
+    "\\personapi-dotnet\\obj",
+    "\\personapi-dotnet\\Properties",
+    "\\personapi-dotnet\\Views",
+    "\\personapi-dotnet\\Views\\Estudios",
+    "\\personapi-dotnet\\Views\\Home",
+    "\\personapi-dotnet\\Views\\Persona",
+    "\\personapi-dotnet\\Views\\Profesion",
+    "\\personapi-dotnet\\Views\\Shared"
+  ],
+  "SelectedNode": "\\personapi-dotnet\\Controllers\\TelefonoController.cs",
+  "PreviewInSolutionExplorer": false
+}
